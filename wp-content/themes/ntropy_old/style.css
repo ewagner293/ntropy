@@ -1,0 +1,18 @@
+/*
+Theme Name: ntropy bootstrap 4 theme
+Theme URI: http://ntropy-data.de
+Author: Ntropy
+Author URI: http://ntropy-data.de
+Description: ntropy theme
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: ntropy
+Tags: ntropy bootstrap
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+@import url('assets/bootstrap/css/bootstrap.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+html {
+    font-family: 'Roboto', sans-serif !important;}
