@@ -56,12 +56,12 @@
 
 		<div class="container">
 			<div class="site-info">
-				<a href="/impressum">Impressum</a>
+				<a href="<?php echo esc_url( 'https://ntropy-data.de/' ); ?>"><?php esc_html_e( 'ntropy', 'wp-bootstrap-4' ); ?></a>
 				<span class="sep"> | </span>
-				<a href="/datenschutz">Datenschutz</a>
-				<span class="sep"> | </span>
-				<a href="/kontakt">Kontakt</a>
-			
+				<?php
+					/* translators: 1: Theme name. */
+					printf( esc_html__( 'Theme Name: %1$s.', 'wp-bootstrap-4' ), 'WP Bootstrap 4' );
+				?>
 			</div><!-- .site-info -->
 		</div>
 		<!-- /.container -->
